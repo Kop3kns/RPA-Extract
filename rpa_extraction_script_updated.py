@@ -15,7 +15,7 @@ class CustomRenPyArchive(rpatool.RenPyArchive):
                 f.write(content)
 
 def main():
-    archive = CustomRenPyArchive("setupRPC.rpyc")
+    archive = CustomRenPyArchive("setupRPC.rpa")
     archive.extract_all("temp_rpa_extraction")
 
 if __name__ == '__main__':
